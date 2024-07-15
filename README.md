@@ -6,7 +6,7 @@ You must have Node.js and a Google Chrome browser installed on your local machin
 3. run `npm i`
 4. run `npx playwright test`
 ## Running Tests in Docker
--Build the Docker image:
--run `docker build -t playwright-tests .`
--Run the tests:
--run `docker run --rm playwright-tests`
+- Build the Docker image:
+- run `docker build -t playwright-tests .`
+- Run the tests:
+- run `docker run --rm playwright-tests`
