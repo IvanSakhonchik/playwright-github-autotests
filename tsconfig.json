@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@framework/*": ["framework/*"],
+      "@project/*": ["project/*"],
+    }
+  }
+}
+  
