@@ -1,12 +1,11 @@
 # Playwright guthub autotests
 ## How to launch the tests locally
-You must have Node.js and a Google Chrome browser installed on your local machine.
+You must have python and pip installed on your local machine.
+Register on the website:
+`https://mega.readyscript.ru/`
+
 1. clone repository
-2. update test data with your data
-3. run `npm i`
-4. run `npx playwright test`
-## Running Tests in Docker
-### Build the Docker image:
-run `docker build -t playwright-tests .`
-### Run the tests:
-run `docker run --rm playwright-tests`
+2. update test data and .env with your credentials (For Example: `"personal_account_name": "Ivan Sakhonchik",`)
+4. run `python -m venv venv` for setting up env
+5. run `pip install -r requirements.txtt` - install package
+6. run `pytest`
